@@ -45,3 +45,6 @@ class MultiHeadAttention(nn.Module):
 
 # q: what is the purpose of the linear layer?
 # a: it is used to transform the output of the model
+
+# q: Explain the forward method of the MultiHeadAttention class
+# a: it takes in a query, key, and value and returns an attention mask
