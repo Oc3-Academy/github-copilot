@@ -28,23 +28,5 @@ class MultiHeadAttention(nn.Module):
         )
 
 
-# q: what does this MultiHeadAttention class do?
-# a: it takes in a query, key, and value and returns an attention mask
-
-# q: What a attention mask is used for?
-# a: it is used to mask out certain values in the query, key, and value
-
-# q: what is the purpose of the residual connection?
-# a: it is used to help the model learn the identity function
-
-# q: what is the purpose of the layer normalization?
-# a: it is used to normalize the output of the model
-
-# q: what is normalization?
-# a: it is used to scale the output of the model to a certain range
-
-# q: what is the purpose of the linear layer?
-# a: it is used to transform the output of the model
-
-# q: Explain the forward method of the MultiHeadAttention class
-# a: it takes in a query, key, and value and returns an attention mask
+# q: what does this MultiHeadAttention do?
+# a: it takes in Q, K, V, and attn_mask, and returns the output of the layer and the attention
